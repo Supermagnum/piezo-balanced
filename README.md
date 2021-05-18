@@ -5,3 +5,6 @@ I think it should work on +48 phantom power.
 
 It anyone spots something wrong, please fork and correct or notify me.
 
+PCB:
+https://aisler.net/p/JXZFPNKS
+
