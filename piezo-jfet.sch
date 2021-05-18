@@ -3653,7 +3653,7 @@ F 3 "" H 2400 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 7500 3050 7500
+	3850 7500 3350 7500
 Wire Wire Line
 	2100 7500 2100 7100
 Connection ~ 2100 7100
@@ -3741,17 +3741,6 @@ Wire Wire Line
 	2200 4750 2200 4900
 Wire Wire Line
 	2200 5450 2200 5200
-$Comp
-L piezo-jfet-rescue:LSK389-Teensy Q2
-U 1 1 60A3CC0E
-P 3000 5450
-F 0 "Q2" H 2900 5350 50  0000 L CNN
-F 1 "LSK389B" H 2800 5450 50  0000 L CNN
-F 2 "SO-239:TO-71-6" H 2300 5425 50  0001 L CIN
-F 3 "https://www.linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf" H 2500 5350 50  0001 L CNN
-	1    3000 5450
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2750 1600 2750 2550
 Wire Wire Line
@@ -3854,7 +3843,6 @@ F 3 "~" H 1900 5450 50  0001 C CNN
 	1    1900 5450
 	0    1    1    0   
 $EndComp
-Connection ~ 3350 4400
 Wire Wire Line
 	3700 5450 3700 5200
 Wire Wire Line
@@ -3867,10 +3855,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 4900 3700 4750
 Wire Wire Line
-	3050 4400 2950 4400
-Wire Wire Line
-	3350 4750 3350 4400
-Wire Wire Line
 	3250 4750 3350 4750
 Wire Wire Line
 	3250 5250 3250 5050
@@ -3881,17 +3865,6 @@ Wire Wire Line
 	2650 4750 2700 4750
 Wire Wire Line
 	2650 4400 2650 4750
-$Comp
-L Device:R R6
-U 1 1 609AF38E
-P 3200 4400
-F 0 "R6" V 2993 4400 50  0000 C CNN
-F 1 "150" V 3084 4400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3130 4400 50  0001 C CNN
-F 3 "~" H 3200 4400 50  0001 C CNN
-	1    3200 4400
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:C C2
 U 1 1 609AEC0D
@@ -4030,7 +4003,48 @@ NoConn ~ 5250 6100
 NoConn ~ 5250 6250
 NoConn ~ 5250 6400
 Wire Wire Line
-	3350 2800 3350 4400
-Wire Wire Line
 	4800 1600 4800 6800
+Wire Wire Line
+	3350 2800 3350 4400
+$Comp
+L Device:R R5
+U 1 1 60A297CF
+P 3200 4400
+F 0 "R5" V 2993 4400 50  0000 C CNN
+F 1 "150" V 3084 4400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3130 4400 50  0001 C CNN
+F 3 "~" H 3200 4400 50  0001 C CNN
+	1    3200 4400
+	0    1    1    0   
+$EndComp
+Connection ~ 3350 4400
+Wire Wire Line
+	3350 4400 3350 4750
+$Comp
+L piezo-jfet-rescue:LSK389-Teensy Q2
+U 1 1 60A3CC0E
+P 3000 5450
+F 0 "Q2" H 2900 5350 50  0000 L CNN
+F 1 "LSK389B" H 2800 5450 50  0000 L CNN
+F 2 "SO-239:TO-71-6" H 2300 5425 50  0001 L CIN
+F 3 "https://www.linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf" H 2500 5350 50  0001 L CNN
+	1    3000 5450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2950 4400 3050 4400
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 60A41959
+P 3350 7300
+F 0 "J6" H 3378 7326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3378 7235 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3350 7300 50  0001 C CNN
+F 3 "~" H 3350 7300 50  0001 C CNN
+	1    3350 7300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3350 7500
+Wire Wire Line
+	3350 7500 3050 7500
 $EndSCHEMATC
