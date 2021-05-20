@@ -1,12 +1,15 @@
-# piezo-balanced
+piezo-balanced
 A small board that uses a LSK389B, for preamplifier and impedance matching of two piezo electric crystals. It has balanced input and output.
 I hope it does not have any bloopers as I have difficulty with maths, 
 I think it should work on +48 phantom power.
 
-It anyone spots something wrong, please fork and correct or notify me.
+It anyone spots something wrong, please fork and correct.
 
 PCB:
 https://aisler.net/p/JXZFPNKS
+
+Electronic diagram with component values:
+https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
 
 Why: 
 The problem with piezo guitar pickups and contact mics is that they are not well matched to typical audio inputs.
@@ -21,7 +24,8 @@ Which is does !
 
 The reason why these devices often sound tinny is because the piezo sensor 
 presents its signal through a series capacitance which is small, typically 15nF or less. 
-When wired to a normal 50 kilohm line input this forms a 200Hz high-pass filter, which eliminates the bass.
+When wired to a normal 50 kilohm line input this forms a high-pass filter, which eliminates the bass.
+
 This circuit board solves that, and amplifies the signal around 30 dB. 
 
 
