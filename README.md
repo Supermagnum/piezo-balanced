@@ -17,7 +17,7 @@ How to wire the crystals:
 https://github.com/Supermagnum/piezo-balanced/blob/main/Balanced-Microphone-Correct-polarisation-correct-colors.jpg
 
 Why: 
-The problem with piezo guitar pickups and contact mics is that they are not well matched to typical audio inputs.
+The problem with piezo guitar pickups and piezoelectric crystals is that they are not well matched to typical audio inputs.
 By their nature they can generate a lot of signal, but they cannot drive a 50 kilohm typical line input. 
 The pickup needs to work into a much higher impedance, typically 1 megohm or so.
 
@@ -32,6 +32,7 @@ presents its signal through a series capacitance which is small, typically 15nF 
 When wired to a normal 50 kilohm line input this forms a high-pass filter, which eliminates the bass.
 
 This circuit board solves that, and amplifies the signal around 30 dB. 
+Should also work nice with hydrophones.
 
 
 
