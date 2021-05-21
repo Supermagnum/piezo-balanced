@@ -154,22 +154,6 @@ X G2 6 550 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# piezo-jfet-rescue_XTAL-Keyboard
-#
-DEF piezo-jfet-rescue_XTAL-Keyboard X 0 40 N N 1 F N
-F0 "X" 0 150 60 H V C CNN
-F1 "piezo-jfet-rescue_XTAL-Keyboard" 0 -150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 16 -100 100 -100 -100 N
-P 2 0 1 16 100 100 100 -100 N
-P 5 0 1 12 -50 50 50 50 50 -50 -50 -50 -50 50 f
-X 1 1 -300 0 200 R 40 40 1 1 P
-X 2 2 300 0 200 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
