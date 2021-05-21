@@ -1,5 +1,7 @@
 
-A small board that uses a LSK389B, for preamplifier and impedance matching of two piezo electric crystals. It has balanced input and output.
+A small board that uses a LSK389B, for preamplifier and impedance matching of two piezo electric crystals wired in balance.
+That should protect against electric noise.
+It has balanced input and output.
 I hope it does not have any bloopers as I have difficulty with maths, 
 I think it should work on +48 phantom power.
 
@@ -10,6 +12,9 @@ https://aisler.net/p/JXZFPNKS
 
 Electronic diagram with component values:
 https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
+
+How to wire the crystals:
+https://github.com/Supermagnum/piezo-balanced/blob/main/Balanced-Microphone-Correct-polarisation-correct-colors.jpg
 
 Why: 
 The problem with piezo guitar pickups and contact mics is that they are not well matched to typical audio inputs.
