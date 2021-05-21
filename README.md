@@ -8,7 +8,7 @@ I think it should work on +48 phantom power.
 It anyone spots something wrong, please fork and correct.
 
 PCB:
-https://aisler.net/p/JXZFPNKS
+https://aisler.net/p/UJQSALGW
 
 Electronic diagram with component values:
 https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
