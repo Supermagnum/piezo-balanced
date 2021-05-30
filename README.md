@@ -2,8 +2,10 @@
 A small board that uses a LSK389B, for preamplifier and impedance matching of two piezo electric crystals wired in balance.
 That should protect against electric noise.
 It has balanced input and output.
-I hope it does not have any bloopers as I have difficulty with maths, 
-I think it should work on +48 phantom power.
+
+I hope it does not have any bloopers as I have difficulty with maths!
+ 
+I think it should work on +48 phantom power. That is ACTUALLY 1.5 VOLTS DC mesured on the pins!
 
 It anyone spots something wrong, please fork and correct.
 
@@ -15,6 +17,14 @@ https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
 
 How to wire the crystals:
 https://github.com/Supermagnum/piezo-balanced/blob/main/Balanced-Microphone-Correct-polarisation-correct-colors.jpg
+
+Complete LSK389B datasheet:
+https://linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf
+
+Digikey does not sell LSK389B in single or dual orders.
+
+But, these does! 
+https://store.nacsemi.com/Products/Detail?stock=LIS000000001342
 
 Why: 
 The problem with piezo guitar pickups and piezoelectric crystals is that they are not well matched to typical audio inputs.
