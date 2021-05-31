@@ -5,7 +5,7 @@ It has balanced input and output.
 
 I hope it does not have any bloopers as I have difficulty with maths!
  
-I think it should work on +48 phantom power. That is ACTUALLY 1.5 VOLTS DC mesured on the pins!
+I think it should work on +48 phantom power.
 
 It anyone spots something wrong, please fork and correct.
 
