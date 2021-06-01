@@ -18,11 +18,8 @@ https://raw.githubusercontent.com/Supermagnum/piezo-balanced/main/piezo-jfet.jpg
 Back side picture:
 https://github.com/Supermagnum/piezo-balanced/raw/main/piezo-jfet2.jpg
 
-Electronic diagram with component values:
+Electronic diagram with component values, it also shows how to wire the crystals::
 https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
-
-How to wire the crystals:
-https://github.com/Supermagnum/piezo-balanced/blob/main/Balanced-Microphone-Correct-polarisation-correct-colors.jpg
 
 Complete LSK389B datasheet:
 https://linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf
