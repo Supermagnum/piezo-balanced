@@ -48,4 +48,3 @@ This circuit board solves that, and amplifies the signal around 30 dB.
 Should also work nice with hydrophones.
 
 
-
