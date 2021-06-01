@@ -12,6 +12,12 @@ It anyone spots something wrong, please fork and correct.
 PCB:
 https://aisler.net/p/UJQSALGW
 
+Component side picture:
+https://raw.githubusercontent.com/Supermagnum/piezo-balanced/main/piezo-jfet.jpg
+
+Back side picture:
+https://github.com/Supermagnum/piezo-balanced/raw/main/piezo-jfet2.jpg
+
 Electronic diagram with component values:
 https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
 
