@@ -46,5 +46,5 @@ When wired to a normal 50 kilohm line input this forms a high-pass filter, which
 
 This circuit board solves that, and amplifies the signal around 30 dB. 
 Should also work nice with hydrophones.
-
+PZT-5H is best for that.
 
