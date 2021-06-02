@@ -1,6 +1,6 @@
 
 A small board that uses a LSK389B, for preamplifier and impedance matching of two piezo electric crystals wired in balance.
-That should protect against electric noise.
+That should minimize electric noise.
 It has balanced input and output.
 
 I hope it does not have any bloopers as I have difficulty with maths!
@@ -38,7 +38,7 @@ So what to people do?
 They go and plug a piezoelectric disks output directly into the line input of their recorder, 
 typical impedance 50k, or the plug-in-power mic input of their recorder, typical impedance about 7k,
 and they start to bitch and moan that this damn thing sounds tinny. 
-Which is does ! 
+Which is does ! But they don't understand why!
 
 The reason why these devices often sound tinny is because the piezo sensor 
 presents its signal through a series capacitance which is small, typically 15nF or less. 
