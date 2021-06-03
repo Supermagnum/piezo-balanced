@@ -13,10 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6000 4550 0    50   ~ 0
-Absolute Maximum Ratings@ 25 °C (unless otherwise stated)Maximum Temperatures\nStorage Temperature-65 to +150°C\nJunction Operating Temperature-55 to +150°C\nMaximum  Continuous Power Dissipation @ +25°C 400mW \nMaximum Currents:\nGate Forward CurrentIG(F)= 10mA\nMaximum Voltages:\nGate to SourceVGSS= 40\nVGate to DrainVGDS= 40V
 $Bitmap
-Pos 7500 2400
+Pos 7500 1900
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 DF 00 00 03 24 08 02 00 00 00 2E C4 04 
@@ -3618,372 +3616,366 @@ $EndBitmap
 $Comp
 L Device:D_Zener D2
 U 1 1 609EE22A
-P 3150 6450
-F 0 "D2" H 3150 6667 50  0000 C CNN
-F 1 "1N3518A" H 3150 6576 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3150 6450 50  0001 C CNN
-F 3 "~" H 3150 6450 50  0001 C CNN
-	1    3150 6450
+P 3150 5450
+F 0 "D2" H 3150 5667 50  0000 C CNN
+F 1 "1N3518A" H 3150 5576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3150 5450 50  0001 C CNN
+F 3 "~" H 3150 5450 50  0001 C CNN
+	1    3150 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Zener D1
 U 1 1 609EF687
-P 2300 6450
-F 0 "D1" H 2300 6233 50  0000 C CNN
-F 1 "1N3518A" H 2300 6324 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2300 6450 50  0001 C CNN
-F 3 "~" H 2300 6450 50  0001 C CNN
-	1    2300 6450
+P 2300 5450
+F 0 "D1" H 2300 5233 50  0000 C CNN
+F 1 "1N3518A" H 2300 5324 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2300 5450 50  0001 C CNN
+F 3 "~" H 2300 5450 50  0001 C CNN
+	1    2300 5450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1450 6850 1450 6450
-Connection ~ 1450 6450
+	1450 5850 1450 5450
+Connection ~ 1450 5450
 Wire Wire Line
-	2650 6950 2400 6950
+	2650 5950 2400 5950
 Wire Wire Line
-	2400 6950 2400 6850
-Connection ~ 2400 6850
+	2400 5950 2400 5850
+Connection ~ 2400 5850
 Wire Wire Line
-	2400 6850 2050 6850
+	2400 5850 2050 5850
 $Comp
 L power:GND #PWR03
 U 1 1 609E54F5
-P 2650 6950
-F 0 "#PWR03" H 2650 6700 50  0001 C CNN
-F 1 "GND" H 2655 6777 50  0000 C CNN
-F 2 "" H 2650 6950 50  0001 C CNN
-F 3 "" H 2650 6950 50  0001 C CNN
-	1    2650 6950
+P 2650 5950
+F 0 "#PWR03" H 2650 5700 50  0001 C CNN
+F 1 "GND" H 2655 5777 50  0000 C CNN
+F 2 "" H 2650 5950 50  0001 C CNN
+F 3 "" H 2650 5950 50  0001 C CNN
+	1    2650 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 609E5F76
-P 4150 6250
-F 0 "#PWR01" H 4150 6000 50  0001 C CNN
-F 1 "GND" H 4155 6077 50  0000 C CNN
-F 2 "" H 4150 6250 50  0001 C CNN
-F 3 "" H 4150 6250 50  0001 C CNN
-	1    4150 6250
+P 4150 5250
+F 0 "#PWR01" H 4150 5000 50  0001 C CNN
+F 1 "GND" H 4155 5077 50  0000 C CNN
+F 2 "" H 4150 5250 50  0001 C CNN
+F 3 "" H 4150 5250 50  0001 C CNN
+	1    4150 5250
 	1    0    0    -1  
 $EndComp
-Text Notes 6000 5150 0    50   ~ 0
-Idss: 4.25 mA\nvds(v): 10 v\nvgs: 0.2 \nvds(v): 10 V\nV GS(OFF): 0.4 V\n
-Connection ~ 3050 6150
+Connection ~ 3050 5150
 Wire Wire Line
-	3850 6450 3550 6450
+	3850 5450 3550 5450
 Wire Wire Line
-	3000 6450 2450 6450
+	3000 5450 2450 5450
 Wire Wire Line
-	2150 6450 1450 6450
+	2150 5450 1450 5450
 $Comp
 L Device:R R3
 U 1 1 609AFA0A
-P 2050 4250
-F 0 "R3" H 1980 4204 50  0000 R CNN
-F 1 "220" H 1980 4295 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1980 4250 50  0001 C CNN
-F 3 "~" H 2050 4250 50  0001 C CNN
-	1    2050 4250
+P 2050 3250
+F 0 "R3" H 1980 3204 50  0000 R CNN
+F 1 "220" H 1980 3295 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1980 3250 50  0001 C CNN
+F 3 "~" H 2050 3250 50  0001 C CNN
+	1    2050 3250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 609BF97D
-P 1550 4400
-F 0 "R1" H 1480 4354 50  0000 R CNN
-F 1 "3.3M" H 1480 4445 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1480 4400 50  0001 C CNN
-F 3 "~" H 1550 4400 50  0001 C CNN
-	1    1550 4400
+P 1550 3400
+F 0 "R1" H 1480 3354 50  0000 R CNN
+F 1 "3.3M" H 1480 3445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1480 3400 50  0001 C CNN
+F 3 "~" H 1550 3400 50  0001 C CNN
+	1    1550 3400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2000 4100 1550 4100
-Connection ~ 2000 4100
+	2000 3100 1550 3100
+Connection ~ 2000 3100
 Wire Wire Line
-	1550 4100 1550 4250
+	1550 3100 1550 3250
 Wire Wire Line
-	1550 4800 1550 4550
+	1550 3800 1550 3550
 Wire Wire Line
-	1550 6150 1550 5450
+	1550 5150 1550 4450
 Wire Wire Line
-	2600 5450 2600 5300
+	2600 4450 2600 4300
 Wire Wire Line
-	2050 5450 2050 5300
+	2050 4450 2050 4300
 $Comp
 L Device:R R9
 U 1 1 609C8F7D
-P 3050 4400
-F 0 "R9" H 2980 4354 50  0000 R CNN
-F 1 "3.3M" H 2980 4445 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2980 4400 50  0001 C CNN
-F 3 "~" H 3050 4400 50  0001 C CNN
-	1    3050 4400
+P 3050 3400
+F 0 "R9" H 2980 3354 50  0000 R CNN
+F 1 "3.3M" H 2980 3445 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2980 3400 50  0001 C CNN
+F 3 "~" H 3050 3400 50  0001 C CNN
+	1    3050 3400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 609C8A88
-P 2600 4250
-F 0 "R7" H 2530 4204 50  0000 R CNN
-F 1 "220" H 2530 4295 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2530 4250 50  0001 C CNN
-F 3 "~" H 2600 4250 50  0001 C CNN
-	1    2600 4250
+P 2600 3250
+F 0 "R7" H 2530 3204 50  0000 R CNN
+F 1 "220" H 2530 3295 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2530 3250 50  0001 C CNN
+F 3 "~" H 2600 3250 50  0001 C CNN
+	1    2600 3250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 609C69DC
-P 3400 4800
-F 0 "C3" V 3148 4800 50  0000 C CNN
-F 1 "22nF" V 3239 4800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3438 4650 50  0001 C CNN
-F 3 "~" H 3400 4800 50  0001 C CNN
-	1    3400 4800
+P 3400 3800
+F 0 "C3" V 3148 3800 50  0000 C CNN
+F 1 "22nF" V 3239 3800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3438 3650 50  0001 C CNN
+F 3 "~" H 3400 3800 50  0001 C CNN
+	1    3400 3800
 	0    1    1    0   
 $EndComp
-Connection ~ 3050 4800
+Connection ~ 3050 3800
 Wire Wire Line
-	3050 4800 3250 4800
-Connection ~ 1550 4800
+	3050 3800 3250 3800
+Connection ~ 1550 3800
 Wire Wire Line
-	1550 4800 1400 4800
+	1550 3800 1400 3800
 $Comp
 L Device:R R10
 U 1 1 609C4890
-P 3050 5300
-F 0 "R10" H 2980 5254 50  0000 R CNN
-F 1 "3.3M" H 2980 5345 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2980 5300 50  0001 C CNN
-F 3 "~" H 3050 5300 50  0001 C CNN
-	1    3050 5300
+P 3050 4300
+F 0 "R10" H 2980 4254 50  0000 R CNN
+F 1 "3.3M" H 2980 4345 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2980 4300 50  0001 C CNN
+F 3 "~" H 3050 4300 50  0001 C CNN
+	1    3050 4300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 609C440C
-P 1550 5300
-F 0 "R2" H 1480 5254 50  0000 R CNN
-F 1 "3.3M" H 1480 5345 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1480 5300 50  0001 C CNN
-F 3 "~" H 1550 5300 50  0001 C CNN
-	1    1550 5300
+P 1550 4300
+F 0 "R2" H 1480 4254 50  0000 R CNN
+F 1 "3.3M" H 1480 4345 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1480 4300 50  0001 C CNN
+F 3 "~" H 1550 4300 50  0001 C CNN
+	1    1550 4300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 609C3EEC
-P 2600 5150
-F 0 "R8" H 2530 5104 50  0000 R CNN
-F 1 "180" H 2530 5195 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2530 5150 50  0001 C CNN
-F 3 "~" H 2600 5150 50  0001 C CNN
-	1    2600 5150
+P 2600 4150
+F 0 "R8" H 2530 4104 50  0000 R CNN
+F 1 "180" H 2530 4195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2530 4150 50  0001 C CNN
+F 3 "~" H 2600 4150 50  0001 C CNN
+	1    2600 4150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 609C396C
-P 2050 5150
-F 0 "R4" H 1980 5104 50  0000 R CNN
-F 1 "180" H 1980 5195 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1980 5150 50  0001 C CNN
-F 3 "~" H 2050 5150 50  0001 C CNN
-	1    2050 5150
+P 2050 4150
+F 0 "R4" H 1980 4104 50  0000 R CNN
+F 1 "180" H 1980 4195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1980 4150 50  0001 C CNN
+F 3 "~" H 2050 4150 50  0001 C CNN
+	1    2050 4150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 609C2AA7
-P 1250 4800
-F 0 "C1" V 998 4800 50  0000 C CNN
-F 1 "22nF" V 1089 4800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1288 4650 50  0001 C CNN
-F 3 "~" H 1250 4800 50  0001 C CNN
-	1    1250 4800
+P 1250 3800
+F 0 "C1" V 998 3800 50  0000 C CNN
+F 1 "22nF" V 1089 3800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1288 3650 50  0001 C CNN
+F 3 "~" H 1250 3800 50  0001 C CNN
+	1    1250 3800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3050 4800 3050 4550
+	3050 3800 3050 3550
 Wire Wire Line
-	2900 4800 3050 4800
+	2900 3800 3050 3800
 Wire Wire Line
-	1750 4800 1550 4800
-Connection ~ 2700 4100
+	1750 3800 1550 3800
+Connection ~ 2700 3100
 Wire Wire Line
-	3050 4100 2700 4100
+	3050 3100 2700 3100
 Wire Wire Line
-	3050 4250 3050 4100
+	3050 3250 3050 3100
 Wire Wire Line
-	2600 4100 2700 4100
+	2600 3100 2700 3100
 Wire Wire Line
-	2600 4600 2600 4400
+	2600 3600 2600 3400
 Wire Wire Line
-	2050 4400 2050 4600
-Connection ~ 2000 3750
+	2050 3400 2050 3600
+Connection ~ 2000 2750
 Wire Wire Line
-	2000 4100 2050 4100
+	2000 3100 2050 3100
 Wire Wire Line
-	2000 3750 2000 4100
+	2000 2750 2000 3100
 $Comp
 L Device:C C2
 U 1 1 609AEC0D
-P 2150 3750
-F 0 "C2" V 1898 3750 50  0000 C CNN
-F 1 "680pF" V 1989 3750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2188 3600 50  0001 C CNN
-F 3 "~" H 2150 3750 50  0001 C CNN
-	1    2150 3750
+P 2150 2750
+F 0 "C2" V 1898 2750 50  0000 C CNN
+F 1 "680pF" V 1989 2750 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2188 2600 50  0001 C CNN
+F 3 "~" H 2150 2750 50  0001 C CNN
+	1    2150 2750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3050 5450 3050 6150
+	3050 4450 3050 5150
 Wire Wire Line
-	3050 4800 3050 5150
+	3050 3800 3050 4150
 Wire Wire Line
-	1550 4800 1550 5150
+	1550 3800 1550 4150
 Wire Wire Line
-	3550 6450 3550 4800
-Connection ~ 3550 6450
+	3550 5450 3550 3800
+Connection ~ 3550 5450
 Wire Wire Line
-	3550 6450 3300 6450
+	3550 5450 3300 5450
 Wire Wire Line
-	1100 6450 1100 4800
+	1100 5450 1100 3800
 Wire Wire Line
-	3050 6150 4150 6150
+	3050 5150 4150 5150
 Wire Wire Line
-	1100 6450 1450 6450
+	1100 5450 1450 5450
 Wire Wire Line
 	2000 1900 2100 1900
-Wire Wire Line
-	2000 1900 2000 3750
 Wire Wire Line
 	2700 2150 2550 2150
 $Comp
 L Device:Q_NJFET_DSG Q1
 U 1 1 609F20CE
-P 2250 5650
-F 0 "Q1" H 2441 5696 50  0000 L CNN
-F 1 "J105" H 2441 5605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2450 5750 50  0001 C CNN
-F 3 "~" H 2250 5650 50  0001 C CNN
-	1    2250 5650
+P 2250 4650
+F 0 "Q1" H 2441 4696 50  0000 L CNN
+F 1 "LSK170B" H 2441 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2450 4750 50  0001 C CNN
+F 3 "~" H 2250 4650 50  0001 C CNN
+	1    2250 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 5450 2350 5450
+	2050 4450 2350 4450
 Wire Wire Line
-	1550 6150 2050 6150
-Connection ~ 2350 5450
+	1550 5150 2050 5150
+Connection ~ 2350 4450
 Wire Wire Line
-	2350 5450 2600 5450
+	2350 4450 2600 4450
 $Comp
 L Device:R R12
 U 1 1 60A04542
-P 2350 6000
-F 0 "R12" H 2420 6046 50  0000 L CNN
-F 1 "270" H 2420 5955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2280 6000 50  0001 C CNN
-F 3 "~" H 2350 6000 50  0001 C CNN
-	1    2350 6000
+P 2350 5000
+F 0 "R12" H 2420 5046 50  0000 L CNN
+F 1 "270" H 2420 4955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2280 5000 50  0001 C CNN
+F 3 "~" H 2350 5000 50  0001 C CNN
+	1    2350 5000
 	1    0    0    -1  
 $EndComp
-Connection ~ 2350 6150
+Connection ~ 2350 5150
 Wire Wire Line
-	2350 6150 3050 6150
+	2350 5150 3050 5150
 Wire Wire Line
-	4150 6250 4150 6150
-Connection ~ 4150 6150
+	4150 5250 4150 5150
+Connection ~ 4150 5150
 Wire Wire Line
-	2050 5650 2050 6150
-Connection ~ 2050 6150
+	2050 4650 2050 5150
+Connection ~ 2050 5150
 Wire Wire Line
-	2050 6150 2350 6150
+	2050 5150 2350 5150
 Wire Wire Line
-	3850 6450 3850 6850
+	3850 5450 3850 5850
 Wire Wire Line
-	3800 6850 3850 6850
+	3800 5850 3850 5850
 $Comp
 L Connector:Conn_01x01_Female J2
 U 1 1 60A6E750
-P 4650 5750
-F 0 "J2" H 4678 5776 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4678 5685 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 5750 50  0001 C CNN
-F 3 "~" H 4650 5750 50  0001 C CNN
-	1    4650 5750
+P 4650 4750
+F 0 "J2" H 4678 4776 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4678 4685 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 4750 50  0001 C CNN
+F 3 "~" H 4650 4750 50  0001 C CNN
+	1    4650 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J5
 U 1 1 60A8050B
-P 4650 5600
-F 0 "J5" H 4678 5626 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4678 5535 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 5600 50  0001 C CNN
-F 3 "~" H 4650 5600 50  0001 C CNN
-	1    4650 5600
+P 4650 4600
+F 0 "J5" H 4678 4626 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4678 4535 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 4600 50  0001 C CNN
+F 3 "~" H 4650 4600 50  0001 C CNN
+	1    4650 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J4
 U 1 1 60A80824
-P 4650 5450
-F 0 "J4" H 4678 5476 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4678 5385 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 5450 50  0001 C CNN
-F 3 "~" H 4650 5450 50  0001 C CNN
-	1    4650 5450
+P 4650 4450
+F 0 "J4" H 4678 4476 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4678 4385 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 4450 50  0001 C CNN
+F 3 "~" H 4650 4450 50  0001 C CNN
+	1    4650 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J3
 U 1 1 60A80D46
-P 4650 5300
-F 0 "J3" H 4678 5326 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4678 5235 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 5300 50  0001 C CNN
-F 3 "~" H 4650 5300 50  0001 C CNN
-	1    4650 5300
+P 4650 4300
+F 0 "J3" H 4678 4326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4678 4235 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4650 4300 50  0001 C CNN
+F 3 "~" H 4650 4300 50  0001 C CNN
+	1    4650 4300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4450 5300
-NoConn ~ 4450 5450
-NoConn ~ 4450 5600
-NoConn ~ 4450 5750
-Wire Wire Line
-	2700 2150 2700 3750
+NoConn ~ 4450 4300
+NoConn ~ 4450 4450
+NoConn ~ 4450 4600
+NoConn ~ 4450 4750
 $Comp
 L Device:R R5
 U 1 1 60A297CF
-P 2550 3750
-F 0 "R5" V 2343 3750 50  0000 C CNN
-F 1 "150" V 2434 3750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2480 3750 50  0001 C CNN
-F 3 "~" H 2550 3750 50  0001 C CNN
-	1    2550 3750
+P 2550 2750
+F 0 "R5" V 2343 2750 50  0000 C CNN
+F 1 "150" V 2434 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2480 2750 50  0001 C CNN
+F 3 "~" H 2550 2750 50  0001 C CNN
+	1    2550 2750
 	0    1    1    0   
 $EndComp
-Connection ~ 2700 3750
+Connection ~ 2700 2750
 Wire Wire Line
-	2700 3750 2700 4100
+	2700 2750 2700 3100
 $Comp
 L piezo-jfet-rescue:LSK389-Teensy Q2
 U 1 1 60A3CC0E
-P 2350 4800
-F 0 "Q2" H 2250 4700 50  0000 L CNN
-F 1 "LSK389B" H 2150 4800 50  0000 L CNN
-F 2 "SO-239:TO-71-6" H 1650 4775 50  0001 L CIN
-F 3 "https://www.linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf" H 1850 4700 50  0001 L CNN
-	1    2350 4800
+P 2350 3800
+F 0 "Q2" H 2250 3700 50  0000 L CNN
+F 1 "LSK389B" H 2150 3800 50  0000 L CNN
+F 2 "tastatur:TO-71-6" H 1650 3775 50  0001 L CIN
+F 3 "https://www.linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf" H 1850 3700 50  0001 L CNN
+	1    2350 3800
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2300 3750 2400 3750
+	2300 2750 2400 2750
 Wire Wire Line
 	2550 1800 2550 2150
 Wire Wire Line
@@ -3992,8 +3984,6 @@ Wire Wire Line
 	2100 1500 2100 1900
 Wire Wire Line
 	2850 1500 4150 1500
-Wire Wire Line
-	4150 1500 4150 6150
 $Comp
 L Connector:XLR3 J1
 U 1 1 609DD8ED
@@ -4013,88 +4003,110 @@ Wire Notes Line
 	850  7450 850  1000
 Text Notes 2700 1350 0    50   ~ 0
 Connect outer cable shield and plug shield to metal box.
-Text Notes 1950 7350 0    50   ~ 0
-Use shielded cable, with 4 leads.\nConnect outer cable shield to metal box.
+Text Notes 1800 6700 0    50   ~ 0
+For connection to the piezo crystals:\nUse shielded cable, with 4 leads.\nConnect outer cable shield to metal box. \nOuter end of cable shield may be connected to the outer box \nthat houses the crystals if that is used. If not, leave unconnected.
 Wire Wire Line
-	2400 6850 3200 6850
+	2400 5850 3200 5850
 $Comp
 L Connector:Conn_01x01_Female J9
 U 1 1 60AB3350
-P 3800 7050
-F 0 "J9" H 3828 7076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 3828 6985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3800 7050 50  0001 C CNN
-F 3 "~" H 3800 7050 50  0001 C CNN
-	1    3800 7050
+P 3800 6050
+F 0 "J9" H 3828 6076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3828 5985 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3800 6050 50  0001 C CNN
+F 3 "~" H 3800 6050 50  0001 C CNN
+	1    3800 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J8
 U 1 1 60AB34FC
-P 3200 7050
-F 0 "J8" H 3228 7076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 3228 6985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3200 7050 50  0001 C CNN
-F 3 "~" H 3200 7050 50  0001 C CNN
-	1    3200 7050
+P 3200 6050
+F 0 "J8" H 3228 6076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3228 5985 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3200 6050 50  0001 C CNN
+F 3 "~" H 3200 6050 50  0001 C CNN
+	1    3200 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J7
 U 1 1 60AB3506
-P 2050 7050
-F 0 "J7" H 2078 7076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2078 6985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2050 7050 50  0001 C CNN
-F 3 "~" H 2050 7050 50  0001 C CNN
-	1    2050 7050
+P 2050 6050
+F 0 "J7" H 2078 6076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2078 5985 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2050 6050 50  0001 C CNN
+F 3 "~" H 2050 6050 50  0001 C CNN
+	1    2050 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J6
 U 1 1 60AB3510
-P 1450 7050
-F 0 "J6" H 1478 7076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1478 6985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1450 7050 50  0001 C CNN
-F 3 "~" H 1450 7050 50  0001 C CNN
-	1    1450 7050
+P 1450 6050
+F 0 "J6" H 1478 6076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1478 5985 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1450 6050 50  0001 C CNN
+F 3 "~" H 1450 6050 50  0001 C CNN
+	1    1450 6050
 	0    1    1    0   
 $EndComp
 Wire Notes Line
 	5150 7450 850  7450
 Wire Notes Line
-	1550 6900 1700 6900
+	1550 5900 1700 5900
 Wire Notes Line
-	1700 6850 1700 6950
+	1700 5850 1700 5950
 Wire Notes Line
-	1750 6850 1750 6950
+	1750 5850 1750 5950
 Wire Notes Line
-	1750 6950 1800 6950
+	1750 5950 1800 5950
 Wire Notes Line
-	1800 6950 1800 6850
+	1800 5950 1800 5850
 Wire Notes Line
-	1800 6850 1750 6850
+	1800 5850 1750 5850
 Wire Notes Line
-	1850 6850 1850 6950
+	1850 5850 1850 5950
 Wire Notes Line
-	1850 6900 2000 6900
+	1850 5900 2000 5900
 Wire Notes Line
-	3300 6900 3450 6900
+	3300 5900 3450 5900
 Wire Notes Line
-	3450 6850 3450 6950
+	3450 5850 3450 5950
 Wire Notes Line
-	3500 6850 3500 6950
+	3500 5850 3500 5950
 Wire Notes Line
-	3500 6950 3550 6950
+	3500 5950 3550 5950
 Wire Notes Line
-	3550 6950 3550 6850
+	3550 5950 3550 5850
 Wire Notes Line
-	3550 6850 3500 6850
+	3550 5850 3500 5850
 Wire Notes Line
-	3600 6850 3600 6950
+	3600 5850 3600 5950
 Wire Notes Line
-	3600 6900 3750 6900
+	3600 5900 3750 5900
 Text Notes 2000 1000 0    50   ~ 0
 This line represent the outside of a metal box.
+Text Notes 7200 6800 0    50   ~ 0
+All resistors, FETs and capacitators are THT.\nUse film resistors and X7R caps!
+Text Notes 2200 5650 0    50   ~ 0
+2x 1N5230B-TR can be used.
+Text Notes 6000 4050 0    50   ~ 0
+Absolute Maximum Ratings@ 25 °C (unless otherwise stated)Maximum Temperatures\nStorage Temperature-65 to +150°C\nJunction Operating Temperature-55 to +150°C\nMaximum  Continuous Power Dissipation @ +25°C 400mW \nMaximum Currents:\nGate Forward CurrentIG(F)= 10mA\nMaximum Voltages:\nGate to SourceVGSS= 40\nVGate to DrainVGDS= 40V
+Text Notes 1600 6000 0    50   ~ 0
++
+Text Notes 3350 6000 0    50   ~ 0
++
+Text Notes 6050 4400 0    50   ~ 0
+Idss: 4.25 mA\n\n\n
+Text Notes 7200 6900 0    50   ~ 0
+All resistors and caps must be audio grade.
+Text Notes 7200 7000 0    50   ~ 0
+All shield connections must be short as possible.
+Wire Wire Line
+	2000 1900 2000 2750
+Wire Wire Line
+	2700 2150 2700 2750
+Wire Wire Line
+	4150 1500 4150 5150
 $EndSCHEMATC
