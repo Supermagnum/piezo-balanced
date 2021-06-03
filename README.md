@@ -11,6 +11,7 @@ It anyone spots something wrong, please fork and correct.
 
 PCB:
 https://aisler.net/p/UJQSALGW
+Note: Aisler does not carry LSK170B in  TO-92 3L or LSK389B in TO-71-6 .
 
 Component side picture:
 https://raw.githubusercontent.com/Supermagnum/piezo-balanced/main/piezo-jfet.jpg
