@@ -1,11 +1,14 @@
 
-A small board that uses a LSK389B, for preamplifier and impedance matching of two piezo electric crystals wired in balance.
+A small board that uses a LSK389B dual N channel Jfet, for preamplifier and impedance matching of two piezo electric crystals wired in balance.
 That should minimize electric noise.
 It has balanced input and output.
+One can read more about that here:
+https://en.m.wikipedia.org/wiki/Balanced_audio
 
 I hope it does not have any bloopers as I have difficulty with maths!
  
-I think it should work on +48 phantom power.
+It's for +48 volt phantom power.
+https://en.m.wikipedia.org/wiki/Phantom_power
 
 It anyone spots something wrong, please fork and correct.
 
