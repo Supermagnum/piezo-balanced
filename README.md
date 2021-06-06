@@ -37,7 +37,7 @@ But, these does!
 https://store.nacsemi.com/Products/Detail?stock=LIS000000001342
 
 LSK170B:
-https://store.nacsemi.com/products/detail?part=LSK170B-SOT-23&stock=LIS000000000639
+https://store.nacsemi.com/products/detail?part=LSK170B-TO-92&stock=LIS000000000640
 
 Why: 
 The problem with piezo guitar pickups and piezoelectric crystals is that they are not well matched to typical audio inputs.
