@@ -63,7 +63,10 @@ The reason why these devices often sound tinny is because the piezo sensor
 presents its signal through a series capacitance which is small, typically 15nF or less. 
 When wired to a normal 50 kilohm line input this forms a high-pass filter, which eliminates the bass.
 
-This circuit board solves that, and amplifies the signal around 30 dB. 
+This circuit board solves that, and amplifies the signal around 15~30 dB. 
+It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
+
+
 Should also work nice with hydrophones.
 PZT-5H is best for that.
 
