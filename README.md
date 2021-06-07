@@ -33,9 +33,6 @@ Simulation in Ltspice:
 Frequency response:
 https://github.com/Supermagnum/piezo-balanced/blob/main/response.png
 
-Ltspice setup:
-https://github.com/Supermagnum/piezo-balanced/blob/main/simulation-setup.png
-
 
 LSK170B datasheet:
 https://www.linearsystems.com/lsdata/datasheets/201110%20-LSK170%20Rev%20A17%20dated%202017%2008%2028.pdf
