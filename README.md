@@ -1,7 +1,10 @@
 
-A small board that uses a LSK389B dual N channel Jfet, for preamplifier and impedance matching of two piezo electric crystals wired in balance.
-That should minimize electric noise.
+A small board that uses a LSK389B dual N channel Jfet,and a LSK170B N channel Jfet for preamplifier and impedance matching of two piezo electric crystals wired in balance.
+Those are ultra low noise!
+Please use metal film resistors and audio quality capacitors.
+
 It has balanced input and output.
+That should minimize electric noise picked up from the environment.
 One can read more about that here:
 https://en.m.wikipedia.org/wiki/Balanced_audio
 
