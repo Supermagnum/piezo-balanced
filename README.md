@@ -25,6 +25,10 @@ https://github.com/Supermagnum/piezo-balanced/raw/main/piezo-jfet2.jpg
 Electronic diagram with component values, it also shows how to wire the crystals:
 https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
 
+Frequency response:
+https://github.com/Supermagnum/piezo-balanced/blob/main/response.png
+
+
 LSK170B datasheet:
 https://www.linearsystems.com/lsdata/datasheets/201110%20-LSK170%20Rev%20A17%20dated%202017%2008%2028.pdf
 
