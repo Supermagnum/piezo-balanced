@@ -58,3 +58,11 @@ This circuit board solves that, and amplifies the signal around 30 dB.
 Should also work nice with hydrophones.
 PZT-5H is best for that.
 
+
+In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the recording equipment. 
+
+The two piezoelectric elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the  piezoelectric tubes as possible. 
+A streamlined bulb should be nice for that. 
+
+
+
