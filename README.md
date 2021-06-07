@@ -26,6 +26,7 @@ Electronic diagram with component values, it also shows how to wire the crystals
 https://github.com/Supermagnum/piezo-balanced/blob/main/piezo-jfet.pdf
 
 Simulation in Ltspice:
+
 Frequency response:
 https://github.com/Supermagnum/piezo-balanced/blob/main/response.png
 
