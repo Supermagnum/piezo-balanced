@@ -5,7 +5,7 @@ It has balanced input and output.
 One can read more about that here:
 https://en.m.wikipedia.org/wiki/Balanced_audio
 
-I hope it does not have any bloopers as I have difficulty with maths!
+I hope it does not have any bloopers on the resistor values as I have difficulty with maths!
  
 It's for +48 volt phantom power.
 https://en.m.wikipedia.org/wiki/Phantom_power
