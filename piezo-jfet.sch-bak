@@ -3636,25 +3636,17 @@ F 3 "~" H 2300 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1450 5850 1450 5450
-Connection ~ 1450 5450
-Wire Wire Line
-	2650 5950 2400 5950
-Wire Wire Line
-	2400 5950 2400 5850
-Connection ~ 2400 5850
-Wire Wire Line
-	2400 5850 2050 5850
+	1900 5850 1900 5450
 $Comp
 L power:GND #PWR03
 U 1 1 609E54F5
-P 2650 5950
-F 0 "#PWR03" H 2650 5700 50  0001 C CNN
-F 1 "GND" H 2655 5777 50  0000 C CNN
-F 2 "" H 2650 5950 50  0001 C CNN
-F 3 "" H 2650 5950 50  0001 C CNN
-	1    2650 5950
-	1    0    0    -1  
+P 2800 5750
+F 0 "#PWR03" H 2800 5500 50  0001 C CNN
+F 1 "GND" H 2805 5577 50  0000 C CNN
+F 2 "" H 2800 5750 50  0001 C CNN
+F 3 "" H 2800 5750 50  0001 C CNN
+	1    2800 5750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -3673,7 +3665,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 5450 2450 5450
 Wire Wire Line
-	2150 5450 1450 5450
+	2150 5450 1900 5450
 $Comp
 L Device:R R3
 U 1 1 609AFA0A
@@ -3852,8 +3844,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 5150 4150 5150
 Wire Wire Line
-	1100 5450 1450 5450
-Wire Wire Line
 	2000 1900 2100 1900
 Wire Wire Line
 	2700 2150 2550 2150
@@ -3863,7 +3853,7 @@ U 1 1 609F20CE
 P 2250 4650
 F 0 "Q1" H 2441 4696 50  0000 L CNN
 F 1 "LSK170B" H 2441 4605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-18-3" H 2450 4750 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2450 4750 50  0001 C CNN
 F 3 "~" H 2250 4650 50  0001 C CNN
 	1    2250 4650
 	1    0    0    -1  
@@ -3880,7 +3870,7 @@ L Device:R R12
 U 1 1 60A04542
 P 2350 5000
 F 0 "R12" H 2420 5046 50  0000 L CNN
-F 1 "270" H 2420 4955 50  0000 L CNN
+F 1 "40" H 2420 4955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2280 5000 50  0001 C CNN
 F 3 "~" H 2350 5000 50  0001 C CNN
 	1    2350 5000
@@ -3898,9 +3888,9 @@ Connection ~ 2050 5150
 Wire Wire Line
 	2050 5150 2350 5150
 Wire Wire Line
-	3850 5450 3850 5850
+	3300 5450 3300 5850
 Wire Wire Line
-	3800 5850 3850 5850
+	3250 5850 3300 5850
 $Comp
 L Connector:Conn_01x01_Female J2
 U 1 1 60A6E750
@@ -4005,97 +3995,84 @@ Text Notes 2700 1350 0    50   ~ 0
 Connect outer cable shield and plug shield to metal box.
 Text Notes 1800 6700 0    50   ~ 0
 For connection to the piezo crystals:\nUse shielded cable, with 4 leads.\nConnect outer cable shield to metal box. \nOuter end of cable shield may be connected to the outer box \nthat houses the crystals if that is used. If not, leave unconnected.
-Wire Wire Line
-	2400 5850 3200 5850
 $Comp
 L Connector:Conn_01x01_Female J9
 U 1 1 60AB3350
-P 3800 6050
-F 0 "J9" H 3828 6076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 3828 5985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3800 6050 50  0001 C CNN
-F 3 "~" H 3800 6050 50  0001 C CNN
-	1    3800 6050
+P 3250 6050
+F 0 "J9" H 3278 6076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3278 5985 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3250 6050 50  0001 C CNN
+F 3 "~" H 3250 6050 50  0001 C CNN
+	1    3250 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J8
 U 1 1 60AB34FC
-P 3200 6050
-F 0 "J8" H 3228 6076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 3228 5985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3200 6050 50  0001 C CNN
-F 3 "~" H 3200 6050 50  0001 C CNN
-	1    3200 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 60AB3506
-P 2050 6050
-F 0 "J7" H 2078 6076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2078 5985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2050 6050 50  0001 C CNN
-F 3 "~" H 2050 6050 50  0001 C CNN
-	1    2050 6050
+P 2550 6050
+F 0 "J8" H 2578 6076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2578 5985 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2550 6050 50  0001 C CNN
+F 3 "~" H 2550 6050 50  0001 C CNN
+	1    2550 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J6
 U 1 1 60AB3510
-P 1450 6050
-F 0 "J6" H 1478 6076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1478 5985 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1450 6050 50  0001 C CNN
-F 3 "~" H 1450 6050 50  0001 C CNN
-	1    1450 6050
+P 1900 6050
+F 0 "J6" H 1928 6076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1928 5985 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1900 6050 50  0001 C CNN
+F 3 "~" H 1900 6050 50  0001 C CNN
+	1    1900 6050
 	0    1    1    0   
 $EndComp
 Wire Notes Line
 	5150 7450 850  7450
 Wire Notes Line
-	1550 5900 1700 5900
+	2000 5900 2150 5900
 Wire Notes Line
-	1700 5850 1700 5950
+	2150 5850 2150 5950
 Wire Notes Line
-	1750 5850 1750 5950
+	2200 5850 2200 5950
 Wire Notes Line
-	1750 5950 1800 5950
+	2200 5950 2250 5950
 Wire Notes Line
-	1800 5950 1800 5850
+	2250 5950 2250 5850
 Wire Notes Line
-	1800 5850 1750 5850
+	2250 5850 2200 5850
 Wire Notes Line
-	1850 5850 1850 5950
+	2300 5850 2300 5950
 Wire Notes Line
-	1850 5900 2000 5900
+	2300 5900 2450 5900
 Wire Notes Line
-	3300 5900 3450 5900
+	2750 5900 2900 5900
 Wire Notes Line
-	3450 5850 3450 5950
+	2900 5850 2900 5950
 Wire Notes Line
-	3500 5850 3500 5950
+	2950 5850 2950 5950
 Wire Notes Line
-	3500 5950 3550 5950
+	2950 5950 3000 5950
 Wire Notes Line
-	3550 5950 3550 5850
+	3000 5950 3000 5850
 Wire Notes Line
-	3550 5850 3500 5850
+	3000 5850 2950 5850
 Wire Notes Line
-	3600 5850 3600 5950
+	3050 5850 3050 5950
 Wire Notes Line
-	3600 5900 3750 5900
+	3050 5900 3200 5900
 Text Notes 2000 1000 0    50   ~ 0
 This line represent the outside of a metal box.
 Text Notes 7200 6800 0    50   ~ 0
 All resistors, FETs and capacitators are THT.\nUse film resistors and X7R caps!
-Text Notes 2200 5650 0    50   ~ 0
+Text Notes 2050 5600 0    50   ~ 0
 2x 1N5230B-TR can be used.
 Text Notes 6000 4050 0    50   ~ 0
 Absolute Maximum Ratings@ 25 °C (unless otherwise stated)Maximum Temperatures\nStorage Temperature-65 to +150°C\nJunction Operating Temperature-55 to +150°C\nMaximum  Continuous Power Dissipation @ +25°C 400mW \nMaximum Currents:\nGate Forward CurrentIG(F)= 10mA\nMaximum Voltages:\nGate to SourceVGSS= 40\nVGate to DrainVGDS= 40V
-Text Notes 1600 6000 0    50   ~ 0
+Text Notes 2050 6000 0    50   ~ 0
 +
-Text Notes 3350 6000 0    50   ~ 0
+Text Notes 2800 6000 0    50   ~ 0
 +
 Text Notes 6050 4400 0    50   ~ 0
 Idss: 4.25 mA\n\n\n
@@ -4109,4 +4086,12 @@ Wire Wire Line
 	2700 2150 2700 2750
 Wire Wire Line
 	4150 1500 4150 5150
+Wire Wire Line
+	2800 5750 2550 5750
+Wire Wire Line
+	2550 5750 2550 5850
+Connection ~ 1900 5450
+Wire Wire Line
+	1100 5450 1900 5450
+Connection ~ 3300 5450
 $EndSCHEMATC
