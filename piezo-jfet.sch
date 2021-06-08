@@ -3972,19 +3972,6 @@ Wire Wire Line
 	2250 1500 2100 1500
 Wire Wire Line
 	2100 1500 2100 1900
-Wire Wire Line
-	2850 1500 4150 1500
-$Comp
-L Connector:XLR3 J1
-U 1 1 609DD8ED
-P 2550 1500
-F 0 "J1" H 2550 1865 50  0000 C CNN
-F 1 "XLR3" H 2550 1774 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2550 1500 50  0001 C CNN
-F 3 " ~" H 2550 1500 50  0001 C CNN
-	1    2550 1500
-	-1   0    0    -1  
-$EndComp
 Wire Notes Line
 	850  1000 5150 1000
 Wire Notes Line
@@ -4094,4 +4081,53 @@ Connection ~ 1900 5450
 Wire Wire Line
 	1100 5450 1900 5450
 Connection ~ 3300 5450
+$Comp
+L Connector:Conn_01x01_Female J10
+U 1 1 60BFB6E4
+P 2550 1300
+F 0 "J10" H 2578 1326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2578 1235 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2550 1300 50  0001 C CNN
+F 3 "~" H 2550 1300 50  0001 C CNN
+	1    2550 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 60BFB6EA
+P 2400 1300
+F 0 "J7" H 2428 1326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2428 1235 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2400 1300 50  0001 C CNN
+F 3 "~" H 2400 1300 50  0001 C CNN
+	1    2400 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 60BFB6F0
+P 2250 1300
+F 0 "J1" H 2278 1326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2278 1235 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2250 1300 50  0001 C CNN
+F 3 "~" H 2250 1300 50  0001 C CNN
+	1    2250 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1800 2400 1800
+Wire Wire Line
+	2400 1800 2400 1500
+Wire Wire Line
+	2550 1500 4150 1500
+Text Label 2100 1600 0    50   ~ 0
+2
+Text Label 2400 1600 0    50   ~ 0
+3
+Text Label 2600 1500 0    50   ~ 0
+1
+Text Notes 6000 4500 0    50   ~ 0
+If a 40 om resistor is not possible to get, replace Q1 \nwith a small jumper connected from pin 1 to 2 and use a 1K resistor in place of R12
+Text Notes 2500 4850 0    50   ~ 0
+*
 $EndSCHEMATC
