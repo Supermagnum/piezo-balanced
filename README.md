@@ -40,7 +40,10 @@ https://www.linearsystems.com/lsdata/datasheets/201110%20-LSK170%20Rev%20A17%20d
 Complete LSK389B datasheet:
 https://linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf
 
-Digikey does not sell LSK389B in single or dual orders.
+Digikey BOM:
+https://github.com/Supermagnum/piezo-balanced/blob/main/BOM.csv
+note:
+Digikey does not sell LSK389B or LSK170B in single or dual orders.
 
 But, these does! 
 https://store.nacsemi.com/Products/Detail?stock=LIS000000001342
