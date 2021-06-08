@@ -33,6 +33,9 @@ https://github.com/Supermagnum/piezo-balanced/tree/main/gerbers
 
 Simulation in Ltspice:
 
+Ltspice setup:
+https://github.com/Supermagnum/piezo-balanced/blob/main/Ltspice-setup.png
+
 Frequency response:
 https://github.com/Supermagnum/piezo-balanced/blob/main/response.png
 
