@@ -16,6 +16,9 @@ PCB:
 https://aisler.net/p/UJQSALGW
 Note: Aisler does not carry LSK170B in  TO-92 3L or LSK389B in TO-71-6 .
 
+PCB dimentions:
+https://github.com/Supermagnum/piezo-balanced/blob/main/dimentions.png
+
 Component side picture:
 https://raw.githubusercontent.com/Supermagnum/piezo-balanced/main/piezo-jfet.jpg
 
@@ -70,17 +73,14 @@ This circuit board solves that, and amplifies the signal around 15~30 dB.
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
 You will need two piezoelectric disks for that, mounted in a metal box.
 
-
 Should also work nice with hydrophones.
 PZT-5H tubes is best for that.
 
-
 In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the recording equipment. 
 
-For hydrophone usage
+For hydrophone usage:
 The two piezoelectric tubes elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the  piezoelectric tubes as possible. 
 A streamlined bulb should be nice for that. 
-
 
 Made with:
 http://www.kicad.org/
