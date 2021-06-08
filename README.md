@@ -68,15 +68,17 @@ When wired to a normal 50 kilohm line input this forms a high-pass filter, which
 
 This circuit board solves that, and amplifies the signal around 15~30 dB. 
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
+You will need two piezoelectric disks for that, mounted in a metal box.
 
 
 Should also work nice with hydrophones.
-PZT-5H is best for that.
+PZT-5H tubes is best for that.
 
 
 In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the recording equipment. 
 
-The two piezoelectric elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the  piezoelectric tubes as possible. 
+For hydrophone usage
+The two piezoelectric tubes elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the  piezoelectric tubes as possible. 
 A streamlined bulb should be nice for that. 
 
 
