@@ -80,4 +80,7 @@ The two piezoelectric elements needs to be encapsulated in Ecopoxy Flowcast epox
 A streamlined bulb should be nice for that. 
 
 
+Made with:
+http://www.kicad.org/
+
 
