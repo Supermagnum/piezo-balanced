@@ -86,6 +86,7 @@ but it will need a dedicated +48 volts phantom power supply with headphone jack 
 Of course one can use a recorder like a tascam dr40x, as long as it can supply +48 volt phantom power, and has a headphone jack.
 
 They usually have a 3 pin XLR plug.
+Those are wired up like this:
 
 A good set of headphones or ear protection with built in speakers will keep out unwanted sounds or noise.
 
