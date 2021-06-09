@@ -74,7 +74,8 @@ When wired to a normal 50 kilohm line input this forms a high-pass filter, which
 
 This circuit board solves that, and amplifies the signal around 15~30 dB. 
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
-You will need two piezoelectric disks for that, mounted in a metal box.
+You will need two piezoelectric disks for that, mounted in a metal box. 
+The piezoelectric disks should be electrically insulated from the metal box.
 
 Should also work nice with hydrophones.
 PZT-5H tubes is best for that.
@@ -87,5 +88,9 @@ A streamlined bulb should be nice for that.
 
 Made with:
 http://www.kicad.org/
+
+KiCad uses an integrated environment for all of the stages of the design process: Schematic capture, PCB layout, Gerber file generation/visualization, and library editing.
+
+KiCad is a cross-platform program, and of curse free!
 
 
