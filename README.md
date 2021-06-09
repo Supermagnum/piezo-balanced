@@ -1,7 +1,7 @@
 
 A small board that uses a LSK389B dual N channel Jfet,and a LSK170B N channel Jfet for preamplifier and impedance matching of two piezo electric crystals wired in balance.
 Those J-FET's are ultra low noise components.
-Please use metal film resistors and audio quality capacitors.
+Please use metal film resistors with 1% tolerance or better and audio quality capacitors.
 
 It has balanced input and output.
 That should minimize electric noise picked up from the environment.
@@ -48,6 +48,7 @@ Digikey BOM:
 https://github.com/Supermagnum/piezo-balanced/blob/main/BOM.csv
 note:
 Digikey does not sell LSK389B or LSK170B in single or dual orders.
+The 40 ohm resistor is missing from the BOM.d
 
 But, these does! 
 https://store.nacsemi.com/Products/Detail?stock=LIS000000001342
@@ -77,6 +78,8 @@ The piezoelectric disks should be electrically insulated from the metal box.
 
 Mechanics may even use it to discover trouble with bearings or other mechanisms not easily opened,
 but it will need a dedicated +48 volts phantom power supply with headphone jack for that specific usage. 
+
+Of course one can use a recorder like a tascam dr40x, as long as it can supply +48 volt phantom power.
 
 Should also work nice with hydrophones.
 PZT-5H tubes is best for that.
