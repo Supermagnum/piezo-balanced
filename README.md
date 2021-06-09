@@ -83,7 +83,9 @@ The piezoelectric disks should be electrically insulated from the metal box.
 Mechanics may even use it to discover trouble with bearings or other mechanisms not easily opened,
 but it will need a dedicated +48 volts phantom power supply with headphone jack for that specific usage. 
 
-Of course one can use a recorder like a tascam dr40x, as long as it can supply +48 volt phantom power.
+Of course one can use a recorder like a tascam dr40x, as long as it can supply +48 volt phantom power, and has a headphone jack.
+
+A good set of headphones or ear protection with built in speakers will keep out unwanted sounds or noise.
 
 Should also work nice with hydrophones.
 PZT-5H tubes is best for that.
