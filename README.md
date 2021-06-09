@@ -75,6 +75,9 @@ It can be used for a reverb plate, listening to the insides of a engine,recordin
 You will need two piezoelectric disks for that, mounted in a metal box. 
 The piezoelectric disks should be electrically insulated from the metal box.
 
+Mechanics may even use it to discover trouble with bearings or other mechanisms not easily opened,
+but it will need a dedicated +48 volts phantom power supply with headphone jack for that specific usage. 
+
 Should also work nice with hydrophones.
 PZT-5H tubes is best for that.
 
