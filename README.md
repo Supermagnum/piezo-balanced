@@ -56,6 +56,9 @@ https://store.nacsemi.com/Products/Detail?stock=LIS000000001342
 LSK170B:
 https://store.nacsemi.com/products/detail?part=LSK170B-TO-92&stock=LIS000000000640
 
+Picture of a piezoelectric disc, with red wire for positive polarity and black for negative:
+https://github.com/Supermagnum/piezo-balanced/blob/main/Piezo-element-6.jpg
+
 Why: 
 The problem with piezo guitar pickups and piezoelectric crystals is that they are not well matched to typical audio inputs.
 By their nature they can generate a lot of signal, but they cannot drive a 50 kilohm typical line input. 
@@ -74,6 +77,7 @@ When wired to a normal 50 kilohm line input this forms a high-pass filter, which
 This circuit board solves that, and amplifies the signal around 15~30 dB. 
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
 You will need two piezoelectric disks for that, mounted in a metal box. 
+Non electric conductive super glue is useable for that. Just glue them to a flat surface.
 The piezoelectric disks should be electrically insulated from the metal box.
 
 Mechanics may even use it to discover trouble with bearings or other mechanisms not easily opened,
