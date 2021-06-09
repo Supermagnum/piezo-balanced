@@ -1,6 +1,6 @@
 
 A small board that uses a LSK389B dual N channel Jfet,and a LSK170B N channel Jfet for preamplifier and impedance matching of two piezo electric crystals wired in balance.
-Those are ultra low noise components.
+Those J-FET's are ultra low noise components.
 Please use metal film resistors and audio quality capacitors.
 
 It has balanced input and output.
@@ -10,7 +10,6 @@ https://en.m.wikipedia.org/wiki/Balanced_audio
 
 It's for +48 volt phantom power.
 https://en.m.wikipedia.org/wiki/Phantom_power
-
 
 PCB:
 https://aisler.net/p/UJQSALGW
@@ -38,7 +37,6 @@ https://github.com/Supermagnum/piezo-balanced/blob/main/Ltspice-setup.png
 
 Frequency response:
 https://github.com/Supermagnum/piezo-balanced/blob/main/response.png
-
 
 LSK170B datasheet:
 https://www.linearsystems.com/lsdata/datasheets/201110%20-LSK170%20Rev%20A17%20dated%202017%2008%2028.pdf
