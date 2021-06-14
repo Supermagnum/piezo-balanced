@@ -95,6 +95,9 @@ A good set of headphones or ear protection with built in speakers will keep out 
 
 Should also work nice with hydrophones.
 PZT-5H tubes is best for that.
+You may want more gain, 40 dB for that.
+If so,use :
+https://github.com/Supermagnum/double-gain
 
 In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the recording equipment. 
 
