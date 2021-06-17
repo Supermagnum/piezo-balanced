@@ -49,6 +49,8 @@ https://github.com/Supermagnum/piezo-balanced/blob/main/BOM.csv
 note:
 Digikey does not sell LSK389B or LSK170B in single or dual orders.
 The 40 ohm resistor is missing from the BOM ( Bill Of Materials).
+Alternatively two 80 ohm resistors in parallel can be used.
+That gives 40 ohm.
 
 But, these does! 
 https://store.nacsemi.com/Products/Detail?stock=LIS000000001342
