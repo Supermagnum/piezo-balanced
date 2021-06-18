@@ -78,7 +78,7 @@ When wired to a normal 50 kilohm line input this forms a high-pass filter, which
 
 This circuit board solves that, and amplifies the signal around 15~30 dB. 
 How many dB it amplifies is dependent on the impedance on the recording equipment.
-I am getting 20 dB with 10K ohm impedance of the recorder.
+I am getting 20 dB with 10K ohm impedance of the recorder ( simulated ).
 
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
 You will need two piezoelectric disks for that, mounted in a metal box. 
@@ -113,6 +113,7 @@ Some interesting ideas can be found in:
 https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf
 Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered.
 It's also safer to work with.
+Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable.
 
 Made with:
 http://www.kicad.org/
