@@ -1,7 +1,7 @@
 
 A small board that uses a LSK389B dual N channel Jfet,and a LSK170B N channel Jfet for preamplifier and impedance matching of two piezo electric crystals wired in balance.
 Those J-FET's are ultra low noise components.
-Please use metal film resistors with 1% tolerance or better and audio quality capacitors.
+Please use metal film resistors with 1% tolerance or better and audio quality capacitors. X7R ceramic caps can be used.
 
 It has balanced input and output.
 That should minimize electric noise picked up from the environment.
