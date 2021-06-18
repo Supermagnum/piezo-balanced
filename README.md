@@ -107,8 +107,12 @@ https://github.com/Supermagnum/double-gain
 In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the recording equipment. 
 
 For hydrophone usage:
-The two piezoelectric tubes elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the  piezoelectric tubes as possible. 
+The two piezoelectric tubes elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the outside of the piezoelectric tubes as possible. 
 A streamlined bulb should be nice for that. 
+Some interesting ideas can be found in:
+https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf
+Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered.
+It's also safer to work with.
 
 Made with:
 http://www.kicad.org/
