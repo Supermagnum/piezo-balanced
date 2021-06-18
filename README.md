@@ -52,7 +52,7 @@ The 40 ohm resistor is missing from the BOM ( Bill Of Materials).
 Alternatively two 80 ohm resistors in parallel can be used.
 That gives 40 ohm.
 
-But, these does! 
+But, these does have LSK389B !
 https://store.nacsemi.com/Products/Detail?stock=LIS000000001342
 
 LSK170B:
@@ -77,6 +77,9 @@ presents its signal through a series capacitance which is small, typically 15nF 
 When wired to a normal 50 kilohm line input this forms a high-pass filter, which eliminates the bass.
 
 This circuit board solves that, and amplifies the signal around 15~30 dB. 
+How many dB it amplifies is dependent on the impedance on the recording equipment.
+I am getting 20 dB with 10K ohm impedance of the recorder.
+
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
 You will need two piezoelectric disks for that, mounted in a metal box. 
 Non electric conductive super glue is useable for that. Just glue them to a flat surface.
@@ -85,7 +88,7 @@ The piezoelectric disks should be electrically insulated from the metal box.
 Mechanics may even use it to discover trouble with bearings or other mechanisms not easily opened,
 but it will need a dedicated +48 volts phantom power supply with headphone jack for that specific usage. 
 
-Of course one can use a recorder like a tascam dr40x, as long as it can supply +48 volt phantom power, and has a headphone jack.
+Of course one can use a recorder like a tascam dr40x, as long as it can supply +48 volt phantom power, and has a headphone jack for monitoring.
 
 They usually have a 3 pin XLR plug.
 Those are wired up like this:
