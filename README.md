@@ -79,9 +79,10 @@ When wired to a normal 50 kilohm line input this forms a high-pass filter, which
 This circuit board solves that, and amplifies the signal around 15~30 dB. 
 How many dB it amplifies is dependent on the impedance on the recording equipment.
 I am getting 20 dB with 10K ohm impedance of the recorder ( simulated ).
+You get more with higher impedance.
 
 It's fairly easy and straight forward to solder the components to the circuit board,
-a nice pointy soldering iron, solder, a magnifying glass, and a ohm or mulimeter is all that is needed.
+a nice pointy soldering iron, solder, a magnifying glass, and a ohm or multimeter is all that is needed.
 Of course one needs a suitable metal box, and the circuit boards components
 must not come in contact with the metal box. 
 That will cause short circuit, so it's best mounted on stand offs.
@@ -133,3 +134,4 @@ KiCad uses an integrated environment for all of the stages of the design process
 KiCad is a cross-platform program, and of curse free!
 
 
+The PCB board is tested and works.
