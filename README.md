@@ -80,6 +80,13 @@ This circuit board solves that, and amplifies the signal around 15~30 dB.
 How many dB it amplifies is dependent on the impedance on the recording equipment.
 I am getting 20 dB with 10K ohm impedance of the recorder ( simulated ).
 
+It's fairly easy and straight forward to solder the components to the circuit board,
+a nice pointy soldering iron, solder, a magnifying glass, and a ohm or mulimeter is all that is needed.
+Of course one needs a suitable metal box, and the circuit boards components
+must not come in contact with the metal box. 
+That will cause short circuit, so it's best mounted on stand offs.
+Also, use the magnifying glass to check that no one of the soldering pads has been bridged.
+
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things.
 You will need two piezoelectric disks for that, mounted in a metal box. 
 Non electric conductive super glue is useable for that. Just glue them to a flat surface.
@@ -93,6 +100,7 @@ Of course one can use a recorder like a tascam dr40x, as long as it can supply +
 They usually have a 3 pin XLR plug.
 Those are wired up like this:
 https://github.com/Supermagnum/piezo-balanced/blob/main/XLR%2BConnector%2BPinout%2BDiagram%2BRear%2BPin%2B2%2BHot%2Bv2%2Bgreen__01.jpg
+NOTE:
 DO NOT CONNECT THE GROUND PIN TO THE CABLE SHIELD!
 IT WILL PICK UP NOISE!
 
