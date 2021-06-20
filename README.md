@@ -45,7 +45,7 @@ Complete LSK389B datasheet:
 https://linearsystems.com/lsdata/datasheets/Copy_201122%20-%20LSK389%20Datasheet%20Rev%20A24%202020%2001%2007.pdf
 
 Digikey does not sell LSK389B or LSK170B in single or dual orders.
-The 40 ohm resistor is missing from the BOM ( Bill Of Materials).
+The 40 ohm resistor is also not sold by digikey .
 Alternatively two 80 ohm resistors in parallel can be used.
 That gives 40 ohm.
 
