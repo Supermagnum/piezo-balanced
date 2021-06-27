@@ -11,6 +11,9 @@ https://en.m.wikipedia.org/wiki/Balanced_audio
 It's for +48 volt phantom power.
 https://en.m.wikipedia.org/wiki/Phantom_power
 
++48 volt phantom power supply with mono headphone jack, runs on 9V battery:
+https://github.com/Supermagnum/48power
+
 PCB:
 https://aisler.net/p/UJQSALGW
 Note: Aisler does not carry LSK170B in  TO-92 3L or LSK389B in TO-71-6 .
