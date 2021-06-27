@@ -126,6 +126,8 @@ Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold t
 It's also safer to work with.
 Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable.
 
+Some methods of mounting a piezoelectric disk can be found here: https://locusonus.org/wiki/index.php?page=Hydrophone.en
+
 Made with:
 http://www.kicad.org/
 
