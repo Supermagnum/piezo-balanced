@@ -78,9 +78,11 @@ When wired to a normal 50 kilohm line input this forms a high-pass filter, which
 
 This circuit board solves that, and amplifies the signal around 15~30 dB. 
 How many dB it amplifies is dependent on the impedance on the recording equipment.
+
 I am getting 24 dB with 10K ohm impedance of the recorder ( simulated ).
+
 If R4, R8 and R8 is removed,and jumpers installed in their place, the gain is 38 dB with 10K impedance.
-You get more with higher impedance.
+You get more with higher impedance, expect 40 dB with 40K impedance of the recorders input.
 
 It's fairly easy and straight forward to solder the components to the circuit board,
 a nice pointy soldering iron, solder, a magnifying glass, and a ohm or multimeter is all that is needed.
