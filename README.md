@@ -81,7 +81,7 @@ How many dB it amplifies is dependent on the impedance on the recording equipmen
 
 I am getting 24 dB with 10K ohm impedance of the recorder ( simulated ).
 
-If R4, R8 and R8 is removed,and jumpers installed in their place, the gain is 38 dB with 10K impedance.
+If R4, R8 and R12 is removed,and jumpers installed in their place, the gain is 38 dB with 10K impedance.
 You get more with higher impedance, expect 40 dB with 40K impedance of the recorders input.
 
 It's fairly easy and straight forward to solder the components to the circuit board,
