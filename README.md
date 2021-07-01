@@ -122,6 +122,7 @@ A epoxy filled container or inside the hydrophone bulb is OK.
 
 For hydrophone usage:
 The two piezoelectric tubes elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the outside of the piezoelectric tubes as possible. 
+Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
 A streamlined bulb should be nice for that. The more streamlined, the less water flow noise. 
 Some interesting ideas can be found in:
 https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf
