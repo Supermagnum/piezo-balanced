@@ -104,9 +104,11 @@ Of course one can use a recorder like a tascam dr40x, as long as it can supply +
 They usually have a 3 pin XLR plug.
 Those are wired up like this:
 https://github.com/Supermagnum/piezo-balanced/blob/main/XLR%2BConnector%2BPinout%2BDiagram%2BRear%2BPin%2B2%2BHot%2Bv2%2Bgreen__01.jpg
-NOTE:
-DO NOT CONNECT THE GROUND PIN TO THE CABLE SHIELD!
-IT WILL PICK UP NOISE!
+
+NOTE:  
+The XLR 3 pin plug has a solder lug for the shield for a reason.
+It is my opinion that a shielded cable with 3 conductors inside is the best.
+Suggested cable: Digi-Key Part Number: 30-00910-5-ND
 
 A good set of headphones or ear protection with built in speakers will keep out unwanted sounds or noise.
 
