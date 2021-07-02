@@ -114,18 +114,12 @@ A good set of headphones or ear protection with built in speakers will keep out 
 
 Should also work nice with hydrophones.
 PZT-5H tubes is best for that.
-You may want more gain, 35 dB for that.
-If so,use :
-https://github.com/Supermagnum/double-gain
-
-In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. 
-It's of course extremely important that the circuit board and connections are absolutely waterproof.
-A epoxy filled container or inside the hydrophone bulb is OK.
 
 For hydrophone usage:
 The two piezoelectric tubes elements needs to be encapsulated in Ecopoxy Flowcast epoxy, with as little thickness to the outside of the piezoelectric tubes as possible. 
 Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
 A streamlined bulb should be nice for that. The more streamlined, the less water flow noise. 
+
 Some interesting ideas can be found in:
 https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf
 Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered.
