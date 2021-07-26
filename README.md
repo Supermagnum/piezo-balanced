@@ -5,7 +5,7 @@ Please use 0,5 W metal film resistors with 1% tolerance or better and audio qual
 C0G (NP0) or X7R capacitors is very good.
 
 
-The circuit may benefit from a Zobel network, that is a 680 pF capacitor and a 150 ohms resistor in series between pin 2 and 3 on the input connector. It should avoid high frequency oscillation in the cable.
+The circuit may benefit from a Zobel network, that is a 680 pF capacitor and a 150 ohms resistor in series between pin 2 and 3 on the output or the input connector. It should avoid high frequency oscillation in a long cable.
 
 It has balanced input and output.
 That should minimize electric noise picked up from the environment.
